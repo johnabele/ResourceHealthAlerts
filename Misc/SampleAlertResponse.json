@@ -1,0 +1,41 @@
+{
+  "schemaId": "azureMonitorCommonAlertSchema",
+  "data": {
+    "essentials": {
+      "alertId": "/subscriptions/97284064-a541-4591-aa38-d52ed9453088/providers/Microsoft.AlertsManagement/alerts/7d11816d-52e2-4b4f-8b45-9719ebde0e53",
+      "alertRule": "ResourceHealthAlert",
+      "severity": "Sev4",
+      "signalType": "Activity Log",
+      "monitorCondition": "Fired",
+      "monitoringService": "Resource Health",
+      "alertTargetIDs": [ "/subscriptions/97284064-a541-4591-aa38-d52ed9453088/resourcegroups/rsgdetectionpoc/providers/microsoft.compute/virtualmachines/detection-vm-01" ],
+      "originAlertId": "4f4d3d01-24b7-4b21-bece-e8319d178d04",
+      "firedDateTime": "2019-09-11T05:17:30.943544Z",
+      "description": null,
+      "essentialsVersion": "1.0",
+      "alertContextVersion": "1.0"
+    },
+    "alertContext": {
+      "channels": "Admin, Operation",
+      "correlationId": "02ff8a7e-6427-4ca7-b67d-0ab77c146588",
+      "eventSource": "ResourceHealth",
+      "eventTimestamp": "2019-09-11T05:14:23.874+00:00",
+      "eventDataId": "4f4d3d01-24b7-4b21-bece-e8319d178d04",
+      "level": "Informational",
+      "operationName": "Microsoft.Resourcehealth/healthevent/Activated/action",
+      "operationId": "4f4d3d01-24b7-4b21-bece-e8319d178d04",
+      "properties": {
+        "title": "",
+        "details": "",
+        "currentHealthStatus": "Unavailable",
+        "previousHealthStatus": "Available",
+        "type": "Downtime",
+        "cause": ""
+      },
+      "status": "Active",
+      "submissionTimestamp": "2019-09-11T05:17:30.1870801+00:00"
+    }
+  }
+}
+
+
